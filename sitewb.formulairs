@@ -1,0 +1,106 @@
+!doctype html>
+<html>
+    <head>
+        <title>Les formulaires</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+
+
+
+
+    </head>
+    <body>
+        <h1>les formulaires</h1>
+        <form method="post" action="traitement.php">
+            <label for="prénom"> Entrer votre prénom</label>
+            <input type="text" id="prénom" name="prénom"><br>
+
+            <Label for="pass">Entrer un mot de passe</Label>
+            <input type="password" id="pass" name="pass"><br>
+
+
+            <label for="naissance"> votre date de naissance</label>
+            <input type="date" id="naissance" name="naissance"><br>
+
+
+            <label for="email"> Entrer votre email</label>
+            <input type="email" id="email" name="mail"><br>
+
+            <label for="site"> Entrer votre site</label>
+            <input type="url" id="site" name="site"><br>
+
+            <Label for="tel"> Entrer votre numero</Label>
+            <input type="number" id="tel" name="tel"><br>
+
+             HOMME OU FEMME? <BR></BR>
+            <input type="radio" id="homme" name="sexe" value="homme">
+            <label for="homme"> un homme</label><br>
+            <input type="radio" id="femme" name="sexe" value="femme">
+            <label for="femme"> une femme</label><br>
+
+
+
+            Majeur ou mineur?<BR>
+            <input type="radio" id="majeur" name="age" value="majeur"> 
+            <label for="majeur"> majeur</label><br>
+            <input type="radio" id="mineur" name="age" value="mineur">
+            <label for="mineur"> mineur</label><br>
+
+
+
+              Quel(S) sport(S) pratiqueZ vous?<br>
+              <input type="checkbox" name="sport" value="football" id="natation">
+              <label for="football"> football</label><br>
+              <input type="checkbox" name="sport" value="natation" id="natation">
+              <label for="natation"> natation</label><br>
+              <input type="checkbox" name="sport" value="course" id="course">
+              <label for="course"> course</label><br>
+              <input type="checkbox" name="sport" value="saut à peiche" id="saut à peiche">
+              <label for="saut à peiche"> saut à peiche</label><br>
+
+
+
+
+              OU HABITEZ vous?<br>
+              <select name="pays">
+                  <optgroup label="Europe">
+                     <OPtion value="france"> france</OPtion>
+                     <option value="belgique"> belgique</option>
+                  </optgroup>
+                  <optgroup label="Amérique">
+
+                     <option value="canada"> canada</option>
+                 </optgroup>
+                 <optgroup label="Afrique">
+                    <option value="maroc"> maroc</option>
+                    <option value="Algérie"> Algérie</option>
+                    <option value="Togo"> Togo</option>
+                 </optgroup>
+             </select>
+                  <br>
+
+
+
+                <label for="prez"> Une petite présentation?</label>
+                <textarea name="présentation" id="prez" cols="10" rows="05"></textarea><br>
+
+            
+
+            <input type="submit" value="Envoyer">
+
+         </form>  
+        
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
